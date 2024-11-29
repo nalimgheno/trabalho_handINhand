@@ -1,0 +1,28 @@
+name: untitled
+description: A new Flutter project.
+
+publish_to: 'none' # Remova esta linha se você não estiver publicando
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0" # Ajuste conforme necessário
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.6.0 # Biblioteca para geração de PDF
+  printing: ^5.0.0 # Biblioteca para impressão e compartilhamento de PDFs
+  share_plus: ^6.0.0 # Biblioteca para compartilhamento
+  image_picker: ^0.8.5+3
+  image_picker_web: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/logo_certa.png
+    - images/meio-ambiente.webp
